@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
 
     <style>
-                body {
+            body {
             margin: 0;
             min-height: 100vh;
             font-family: 'Poppins', sans-serif;
             position: relative;
             overflow-x: hidden;
-            color: #ffeeb7;
+            color: #a95271;
         }
         
         body::before {
@@ -34,35 +34,35 @@
             content: "";
             position: fixed;
             inset: 0;
-            background: rgba(255, 217, 78, 0.201);
+            background: rgba(255, 78, 146, 0.201);
             z-index: -1;
         }
         
         @keyframes slide {
             0% {
-                background-image: url("https://i.pinimg.com/1200x/c1/58/ca/c158cabb40de51b5ca5b8ea219f6b4a3.jpg");
+                background-image: url("https://i.pinimg.com/736x/d3/a6/c8/d3a6c85a881cea9eb4a50fbf5abf2334.jpg");
             }
             40% {
-                background-image: url("https://i.pinimg.com/736x/76/94/51/769451b9f0470e2a8b0a662981c66aab.jpg");
+                background-image: url("https://i.pinimg.com/1200x/cc/03/b0/cc03b086fa3d4d8df1eed0d04ba14c6f.jpg");
             }
             80% {
-                background-image: url("https://i.pinimg.com/1200x/5c/5e/ec/5c5eecea16df453e6c2198ef1840e088.jpg");
+                background-image: url("https://i.pinimg.com/control1/736x/68/e3/b5/68e3b58986dbd8d722b6cf13c3a722c1.jpg");
             }
             100% {
-                background-image: url("https://i.pinimg.com/736x/8f/9d/e4/8f9de4a984b745d748dc90ac554bce91.jpg");
+                background-image: url("https://i.pinimg.com/1200x/c7/b8/5f/c7b85f98ec7c5654ac374e253d8a7021.jpg");
             }
         }
 
 
         .main-box {
-            background: rgba(255, 223, 120, 0.12);
+            background: rgba(255, 216, 232, 0.638);
             backdrop-filter: blur(20px);
             border-radius: 25px;
             padding: 45px 35px;
             width: 360px;
             margin: auto;
             margin-top: 70px;
-            border: 1px solid rgba(255, 223, 120, 0.4);
+            border: 1px solid rgba(255, 120, 165, 0.4);
 
             animation: glowPulse 3s ease-in-out infinite;
         }
@@ -70,16 +70,16 @@
 
         @keyframes glowPulse {
             0% {
-                box-shadow: 0 0 20px rgba(255, 215, 0, 0.3),
-                            0 0 40px rgba(255, 215, 0, 0.2);
+                box-shadow: 0 0 20px rgba(255, 0, 81, 0.3),
+                            0 0 40px rgba(255, 0, 128, 0.2);
             }
             50% {
-                box-shadow: 0 0 40px rgba(255, 223, 120, 0.7),
-                            0 0 80px rgba(255, 215, 0, 0.5);
+                box-shadow: 0 0 40px rgba(255, 120, 167, 0.7),
+                            0 0 80px rgba(255, 0, 136, 0.5);
             }
             100% {
-                box-shadow: 0 0 20px rgba(255, 215, 0, 0.3),
-                            0 0 40px rgba(255, 215, 0, 0.2);
+                box-shadow: 0 0 20px rgba(255, 0, 72, 0.3),
+                            0 0 40px rgba(255, 0, 85, 0.2);
             }
         }
 
@@ -87,8 +87,8 @@
             font-family: 'Playfair Display', serif;
             font-size: 40px;
             letter-spacing: 3px;
-            color: #fff3c4;
-            text-shadow: 0 0 12px rgba(255, 215, 0, 0.8);
+            color: #9b536b;
+            text-shadow: 0 0 12px rgba(241, 112, 188, 0.8);
         }
 
         h1::after {
@@ -96,58 +96,58 @@
             display: block;
             width: 70px;
             height: 2px;
-            background: linear-gradient(to right, #ffd700, #fff3c4);
+            background: linear-gradient(to right, #ff8bcb, #ffc4e7);
             margin: 12px auto 0;
         }
 
         .form-control {
             border-radius: 30px;
-            background: rgba(255, 223, 120, 0.2);
-            border: 1px solid rgba(255, 223, 120, 0.3);
-            color: #fff8dc;
+            background: rgba(255, 120, 185, 0.2);
+            border: 1px solid rgba(255, 120, 188, 0.3);
+            color: #ffdced;
             padding: 10px 15px;
         }
 
         .form-control:focus {
-            background: rgba(255, 223, 120, 0.2) !important;
-            color: #fff8dc !important;
-            border: 1px solid rgba(255, 223, 120, 0.5);
-            box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+            background: rgba(255, 120, 190, 0.2) !important;
+            color: #ffdce6 !important;
+            border: 1px solid rgba(255, 120, 197, 0.5);
+            box-shadow: 0 0 8px rgba(255, 0, 106, 0.5);
         }
 
         .form-control::placeholder {
-            color: #fff3c4;
+            color: #b9849b;
         }
 
         .form-control:hover {
-            box-shadow: 0 0 10px rgba(255, 223, 120, 0.5);
+            box-shadow: 0 0 10px rgba(255, 120, 192, 0.5);
             transition: 0.3s;
         }
         #loginBTN {
-            background-color: #ffd700;
+            background-color: #ffaac0;
             border: none;
-            color: #5a4500;
+            color: #5a0027;
             border-radius: 30px;
             transition: all 0.3s ease;
         }
 
         #loginBTN:hover {
-            background-color: #fff3c4;
+            background-color: #ffc4da;
             transition: all 0.3 ease;
-            color: #5a4500;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.8),
-                        0 0 30px rgba(255, 223, 120, 0.6);
+            color: #5a0024;
+            box-shadow: 0 0 15px rgba(255, 0, 115, 0.8),
+                        0 0 30px rgba(255, 120, 170, 0.6);
         }
 
         kbd {
-            background: #ffd70075;
-            color: #5a4500;
+            background: #ff008875;
+            color: #5a0014;
             padding: 3px 8px;
             border-radius: 6px;
             font-size: 15px;
-            box-shadow: 0 0 6px rgba(255, 217, 0, 0.694);
+            box-shadow: 0 0 6px rgba(255, 0, 93, 0.694);
         }
-        
+
     </style>
 </head>
 
@@ -156,6 +156,7 @@
     <div class="main-box text-center">
     <form>
         <h1>Login Form</h1>
+        <br>
 
         <label for="uname">Username</label><br>
         <input type="text" id="uname" class="form-control" placeholder="Enter here" required>
