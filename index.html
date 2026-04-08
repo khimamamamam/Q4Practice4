@@ -24,8 +24,13 @@
     </form>
 
     <script>
+        let attempt_counter = 0;
+        
         function authenticate(){
-            
+            let username = document.getElementById("uname").value;
+            let pwd = document.getElementById("pwd").value;
+            let granted = "Welcome " + username + "!";
+            let denied = "Access denied. Account locked after 3 attempts!";
         }
 
     </script>
